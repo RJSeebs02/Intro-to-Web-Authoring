@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(About\ US\ BG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.navigationbar{
+    flex: 1;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navigationbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+.navigationbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navigationbar ul li a:hover{
+    color: tomato;
+    transition: 0.5s;
+}
+.navigationbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: tomato;
+    margin: auto;
+    transition: 0.5s;
+}
+.navigationbar ul li:hover::after{
+    width: 100%;
+}
+#Heading{
+    padding-top: 50px;
+}
+#Heading h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+    width: 30%;
+    margin: auto;
+}
+#Heading2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+    margin: auto;
+    width: 40%;
+}
+#Pic{
+    padding-top: 50px;
+    padding-right: 200px;
+    float: right;    
+    margin: 0 0 0 15px;
+}
+#Pic img{
+    height: 350px;
+    width: 400px;
+}
+.Description{
+    padding-top: 130px;
+    padding-left: 170px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.Description p{
+    background-color: rgba(0,0,0,0.50);
+    margin: auto;
+    padding: 10px;
+}
+.Wrapper{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 23%;
+}
+.Wrapper .Gallery div{
+    margin: 15px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 170px;
+}
+
+.Wrapper img{
+    width: 300px;
+    height: 170px;
+}
+.SpecialWords {
+    color:tomato;
+}
